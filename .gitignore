@@ -1,3 +1,4 @@
 _site/
 *.bat
 *.bak
+/_posts/*.DS_Store
