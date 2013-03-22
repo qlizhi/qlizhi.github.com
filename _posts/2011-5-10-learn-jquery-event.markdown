@@ -4,8 +4,7 @@ styles: [syntax]
 title: jQuery Event 源码学习
 ---
 
-# 一级标题
-众**所周**知，jQuery 通过jQuery.event.add & jQuery.event.remove 方法对DOM元素(文本和注释节点除外)进行事件的绑定和解绑。这两个方法都提供了四个参数，前三个参数elem, types, handler 是必选的，最后一个为可选参数分别是data和pos。
+众所周知，jQuery 通过jQuery.event.add & jQuery.event.remove 方法对DOM元素(文本和注释节点除外)进行事件的绑定和解绑。这两个方法都提供了四个参数，前三个参数elem, types, handler 是必选的，最后一个为可选参数分别是data和pos。
 
 <h2>绑定:</h2>
 jQuery在对DOM元素进行绑定事件时，通过jQuery.data在jQuery.cache中存储绑定的事件类型、响应函数和可选参数data。该数据结构如下：
