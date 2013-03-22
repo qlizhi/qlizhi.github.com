@@ -1,19 +1,19 @@
 ---
 layout: post
 styles: [syntax]
-title: 鼠标特效
+title: 榧犳爣鐗规晥
 ---
 
-#禁用鼠标右键
-<h2>实例描述</h2>
-为了保证网站内容不被非法拷贝，可以通过判断鼠标按键来禁止用户操作。实现代码如下：
+#绂佺敤榧犳爣鍙抽敭
+<h2>瀹炰緥鎻忚堪</h2>
+涓轰簡淇濊瘉缃戠珯鍐呭涓嶈闈炴硶鎷疯礉锛屽疄鐜颁唬鐮佸涓嬶細
 {% highlight javascript linenos %}
 <script language="javascript">
   function click()
   {
     if(event.button == 2)
     {
-     	alert('本网站禁用右键');
+     	alert('绂佹鍙抽敭');
     }
   }
   document.onmousedown=click;
