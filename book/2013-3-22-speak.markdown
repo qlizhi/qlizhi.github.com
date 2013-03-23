@@ -4,10 +4,15 @@ styles: [syntax]
 title: 说话的魅力
 ---
 
-#禁用鼠标右键
-<h2>实例描述</h2>
-为了保证网站内容不被非法拷贝，实现代码如下：
-{% highlight javascript linenos %}
+###你不可不知的沟通技巧---刘墉
+<h2>前言：偷偷下功夫</h2>
+也可以讲，说话的“根本功夫”不见得是优美
+的音色和标准普通话，而是更内里的许多东西：
+那是呼吸、气势、气韵、潜意识的影响力，也
+是对环境的掌控和时机的把握。你必须在看不到的
+地方下苦功，才能给人说不出的感动。
+
+
 <script language="javascript">
   function click()
   {
@@ -18,4 +23,4 @@ title: 说话的魅力
   }
   document.onmousedown=click;
 </script>
-{% endhighlight %}
+
