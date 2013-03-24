@@ -10,8 +10,7 @@ title: 说话的魅力
 <link rel="stylesheet" href="/static/css/slimbox.css" type="text/css" media="screen" />
 
 <p>
-	<a href="/static/images/book/shuohuafengmian.jpg" rel="lightbox" title="Beautiful, isn't it?">
-	<img src="/static/images/book/shuohuafengmian1.jpg"/></a>
+	<a href="/static/images/book/shuohuafengmian.jpg" rel="lightbox" title="Beautiful, isn't it?">Click here</a>
 </p>
 
 
