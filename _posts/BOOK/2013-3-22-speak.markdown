@@ -1,7 +1,7 @@
 ---
 layout: post
 styles: [syntax]
-title: 说话的魅力
+title: 工作时间怎么屏蔽QQ
 ---
 
 #禁用鼠标右键
