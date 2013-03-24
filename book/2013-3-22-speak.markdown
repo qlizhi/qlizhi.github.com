@@ -6,20 +6,14 @@ title: 说话的魅力
 
 ###你不可不知的沟通技巧---刘墉
 <script type="text/javascript" src="static/js/mootools.js"></script>
-
-
 <script type="text/javascript" src="static/js/slimbox.js"></script>
-
-
 <link rel="stylesheet" href="/static/css/slimbox.css" type="text/css" media="screen" />
 
+<p>
+	<a href="/static/images/book/shuohuafengmian.jpg" rel="lightbox" title="Beautiful, isn't it?">
+	<img src="/static/images/book/shuohuafengmian1.jpg"/></a>
+</p>
 
-<div class="thumbnail" style="heigt:90px; width:120px; text-align:center;">
-		<p>
-		<a href="/static/images/book/shuohuafengmian.jpg" rel="lightbox" title="Beautiful, isn't it?">
-			<img src="/static/images/book/shuohuafengmian1.jpg"/></a>
-	</p>
-</div>
 
 
 <h2>前言：偷偷下功夫</h2>
