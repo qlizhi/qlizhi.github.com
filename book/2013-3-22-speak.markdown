@@ -5,7 +5,11 @@ title: 说话的魅力
 ---
 
 ###你不可不知的沟通技巧---刘墉
-![Alt "封面"](/static/images/book/shuohuafengmian.jpg)
+<script type="text/javascript" src="static/js/slimbox.js"></script>
+<div class="thumbnail" style="heigt:90px; width:120px; text-align:center;">
+<a href="/static/images/book/shuohuafengmian.jpg" rel="lightbox[]" title="封面">
+	<img src="/static/images/book/myphone.png">
+</a></div>
 
 
 <h2>前言：偷偷下功夫</h2>
