@@ -3,7 +3,11 @@ layout: post
 styles: [syntax]
 title: 说话的魅力
 ---
-
+<style>
+	article p{
+		text-indent: 0em;
+		}
+	</style>
 ###你不可不知的沟通技巧---刘墉
 <script type="text/javascript" src="/static/js/slimbox2.js"></script>
 <link rel="stylesheet" href="/static/css/slimbox2.css" type="text/css" media="screen" />
