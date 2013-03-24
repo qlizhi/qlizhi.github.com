@@ -50,7 +50,7 @@ $(document).ready(function(){
 		
 	 if( location.host != "localhost"){
 		//duo shuo
-		var duoshuoQuery = {short_name: "ddatsh"};
+		var duoshuoQuery = {short_name: "qlizhi"};
 		var duoshuoURL="http://static.duoshuo.com/embed.js";
 		
 		loadDuoShuo();
