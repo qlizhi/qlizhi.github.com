@@ -22,7 +22,7 @@ title: 说话的魅力
 
 
 <h2>第一章 从“喂”谈起</h2>
-p{padding:.3em 0;white-space:pre-wrap;} **用声音给人最好的第一印象**
+p{padding:.3em 0;white-space:pre-wrap;}   **用声音给人最好的第一印象**
 
 
 
