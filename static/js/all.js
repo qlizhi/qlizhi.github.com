@@ -11,12 +11,12 @@ var q=null;window.PR_SHOULD_USE_CONTINUATION=!0;(function(){function L(a){functi
 //$(window).keypress(function(e){if(((e.which==115)||(e.which==104)||(e.which==112)||(e.which==114)||(e.which==97)||(e.which==110))&&e.ctrlKey){e.preventDefault();}});$(document).bind("contextmenu",function(){return false;});$(document).keydown(function(){return key(arguments[0]);});document.onselectstart=function(){return/input|textarea/i.test(window.event.srcElement.tagName);};function key(e){if(window.event){e=event;e.which=e.keyCode;var code=e.which;var isAlt=e.altKey;var isCtrl=e.ctrlKey;var isShift=e.shiftKey;if(isCtrl){if(code==78||code==80||code==82){event.keyCode=0;event.returnValue=false;}}else if(isAlt){if(code==37||code==39){event.returnValue=false;}else if(code==115){window.showModelessDialog("about:blank","","dialogWidth:1px;dialogheight:1px");return false;}}else if(isShift){if(code==121){event.returnValue=false;}}else if(code==116||code==122){event.keyCode=0;event.returnValue=false;}}}
 
 //duo shuo
-var duoshuoQuery = {short_name: "ddatsh"};
+var duoshuoQuery = {short_name: "qlizhi"};
 var duoshuoURL="http://static.duoshuo.com/embed.js";
 
 function disqus()
 {
-	var disqus_shortname = 'ddatsh'; 
+	var disqus_shortname = 'qlizhi'; 
 	var disqus_url = "{{ site.url }}{{ page.url | remove:'index.html' }}";
 	(function() {
 		var dsq = document.createElement('script'); dsq.async = true;
