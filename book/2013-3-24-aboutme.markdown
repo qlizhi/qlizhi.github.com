@@ -1,40 +1,8 @@
 ---
 layout: post
 styles: [syntax]
-title: 说话的魅力
+title: About me
 ---
 
-###你不可不知的沟通技巧---刘墉
-<h2>前言：偷偷下功夫</h2>
-也可以讲，说话的“根本功夫”不见得是优美的音色和标准普通话，而是更内里的许多东西：    
-那是呼吸、气势、气韵、潜意识的影响力，也是对环境的掌控和时机的把握。你必须在看不到的
-地方下苦功，才能给人说不出的感动。
-
-
-<h2>第一章 从“喂”谈起</h2>
-**用声音给人最好的第一印象**
-
-
-
-接线生只答了一个“喂”，   
-你就觉得好柔软、好亲切，   
-觉得她好有教养。   
-有时候打电话查号的感觉好，    
-甚至想约那小姐出来。   
-
-"喂！"   
-你以为大家的“喂”都一样吗？  
-
-
-
-<script language="javascript">
-  function click()
-  {
-    if(event.button == 2)
-    {
-     	alert('禁止右键');
-    }
-  }
-  document.onmousedown=click;
-</script>
+![Alt "tel me"](/static/images/book/myphone.png)
 
