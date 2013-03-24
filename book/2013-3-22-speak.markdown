@@ -5,8 +5,8 @@ title: 说话的魅力
 ---
 
 ###你不可不知的沟通技巧---刘墉
-<script type="text/javascript" src="static/js/mootools.js"></script>
-<script type="text/javascript" src="static/js/slimbox.js"></script>
+<script type="text/javascript" src="/static/js/mootools.js"></script>
+<script type="text/javascript" src="/static/js/slimbox.js"></script>
 <link rel="stylesheet" href="/static/css/slimbox.css" type="text/css" media="screen" />
 
 <p>
