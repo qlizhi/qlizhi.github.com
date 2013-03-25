@@ -11,13 +11,10 @@ title: 说话的魅力
 ###你不可不知的沟通技巧---刘墉
 <script type="text/javascript" src="/static/js/slimbox2.js"></script>
 <link rel="stylesheet" href="/static/css/slimbox2.css" type="text/css" media="screen" />
-
 <p>
 	<a href="/static/images/book/shuohuafengmian.jpg" rel="lightbox" title="Beautiful, isn't it?">
 	<img src="/static/images/book/shuohuafengmian1.jpg"/></a>
 </p>
-
-
 
 <h2>前言：偷偷下功夫</h2>
 也可以讲，说话的“根本功夫”不见得是优美的音色和标准普通话，而是更内里的许多东西：    
