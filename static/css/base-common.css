@@ -10,7 +10,7 @@ html{
 	color:#000;background:#fff;
 }
 
-blockquote {margin:1em 0em;padding-left: 1.5em;}
+blockquote {margin:1em 0em;padding-left: 1.5em;display:block;text-align:justify;border-left:4px solid #eeeeee}
 /* 内外边距通常让各个浏览器样式的表现位置不同 */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	margin:0;padding:0;
