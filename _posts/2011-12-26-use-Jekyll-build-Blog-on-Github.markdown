@@ -136,7 +136,8 @@ windows下比较比较好用的git客户端有2种：
 1. msysgit + TortoiseGit(乌龟git)
 1. GitHub for Windows 
 
-github的windows版也用过一段时间，但还是不太习惯。所以目前仍然青睐与msysgit+乌龟git的组合。TortoiseGit在提交时总数会提示你输入用户名密码，非常麻烦。解决方案如下：  
+github的windows版也用过一段时间，但还是不太习惯。所以目前仍然青睐与msysgit+乌龟git的组合。TortoiseGit在提交时总数会提示你输入用户名密码，非常麻烦。解决方案如下：
+  
 1. Windows中添加一个HOME环境变量，值为%USERPROFILE%
 1. 在“开始>运行”中打开%Home%，新建一个名为“_netrc”的文件
 1. 用记事本打开_netrc文件，输入Git服务器名、用户名、密码，并保存：
