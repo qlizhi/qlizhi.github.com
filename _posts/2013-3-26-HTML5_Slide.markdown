@@ -10,9 +10,9 @@ title: 基于HTML5的幻灯片
 - 在来yihui的：		[yihui 加了个滑动鱼眼效果](http://slides.html5rocks.com/#landing-slide "HTML5");   
 - 再来Google的模版：[google template](http://html5slides.googlecode.com/svn/trunk/template/index.html#1 "HTML5");
 - 还有几个基于CSS的框架：  
-		- [Slides Presentation with HTML5 ](https://github.com/briancavalier/slides "")
-		- [csss](https://github.com/LeaVerou/CSSS "")
-		- [Impress.js](http://www.oschina.net/p/impress-js "")
-		- [Reveal.js](http://www.oschina.net/p/reveal-js "")
+		- [Slides Presentation with HTML5 ](https://github.com/briancavalier/slides "HTML5");
+		- [csss](https://github.com/LeaVerou/CSSS "HTML5");
+		- [Impress.js](http://www.oschina.net/p/impress-js "HTML5");
+		- [Reveal.js](http://www.oschina.net/p/reveal-js "HTML5");
 		
 相关介绍可以在[这里](http://www.oschina.net/news/26182/6-best-html5-css3-ppt-tools)看看。
