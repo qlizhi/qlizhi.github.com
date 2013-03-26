@@ -4,7 +4,7 @@ styles: [syntax]
 title: 基于HTML5的幻灯片
 ---
 
-今天从[yihui](http://yihui.name/cn/2011/11/html5-slides/ "HTML5")看到关于HTML5幻灯片，一见钟情，决定毕业论文答辩采用HTML5来做。
+今天从网上看到关于HTML5幻灯片，一见钟情，决定毕业论文答辩采用HTML5来做。
 先发几个资源：
    
 1. 先来基础教材的：[slides.html5rocks.com](http://slides.html5rocks.com/#landing-slide "HTML5");  
