@@ -128,3 +128,18 @@ Jekyll自动生成的，所以可以忽略，如果你有在本地安装Jekyll�
 - <https://github.com/mojombo/jekyll/wiki>
 - <http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll/>
 - <http://daringfireball.net/projects/markdown/syntax>
+
+## TortoiseGit(乌龟git)保存用户名密码的方法
+
+windows下比较比较好用的git客户端有2种：  
+
+1. msysgit + TortoiseGit(乌龟git)
+1. GitHub for Windows 
+
+github的windows版也用过一段时间，但还是不太习惯。所以目前仍然青睐与msysgit+乌龟git的组合。TortoiseGit在提交时总数会提示你输入用户名密码，非常麻烦。解决方案如下：  
+1. Windows中添加一个HOME环境变量，值为%USERPROFILE%
+1. 在“开始>运行”中打开%Home%，新建一个名为“_netrc”的文件
+1. 用记事本打开_netrc文件，输入Git服务器名、用户名、密码，并保存：
+    > machine github.com       #git服务器名称
+    > login user          #git帐号
+    > password pwd   #git密码
