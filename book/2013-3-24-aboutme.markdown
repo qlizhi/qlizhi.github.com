@@ -32,6 +32,6 @@ title: About me
 
 ## 本站架构
 
-本站就是挂在github的，搜索github+pages你能搜到一堆。
+本站就是挂在github的，搜索github+pages你能搜到一堆。提醒一下，中文编码要U8-UNIX。
 
 博客是从的taberh那里fork下来的，还有ddatsh。另外模仿了yihui的风格，哈哈，千古文章一大抄！

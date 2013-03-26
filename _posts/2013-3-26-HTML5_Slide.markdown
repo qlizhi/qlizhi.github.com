@@ -1,18 +1,18 @@
 ---
 layout: post
 styles: [syntax]
-title: »ùÓÚHTML5µÄ»ÃµÆÆ¬
+title: åŸºäºHTML5çš„å¹»ç¯ç‰‡
 ---
 
-½ñÌì´Ó[yihui](http://yihui.name/cn/2011/11/html5-slides/ "HTML5")¿´µ½¹ØÓÚHTML5»ÃµÆÆ¬£¬Ò»¼ûÖÓÇé£¬¾ö¶¨±ÏÒµÂÛÎÄ´ğ±ç²ÉÓÃHTML5À´×ö¡£
-ÏÈ·¢¼¸¸ö×ÊÔ´£º   
-- ÏÈÀ´»ù´¡½Ì²ÄµÄ£º[slides.html5rocks.com](http://slides.html5rocks.com/#landing-slide "HTML5");  
-- ÔÚÀ´yihuiµÄ£º		[yihui ¼ÓÁË¸ö»¬¶¯ÓãÑÛĞ§¹û](http://slides.html5rocks.com/#landing-slide "HTML5");   
-- ÔÙÀ´GoogleµÄÄ£°æ£º[google template](http://html5slides.googlecode.com/svn/trunk/template/index.html#1 "HTML5");
-- »¹ÓĞ¼¸¸ö»ùÓÚCSSµÄ¿ò¼Ü£º  
+ä»Šå¤©ä»[yihui](http://yihui.name/cn/2011/11/html5-slides/ "HTML5")çœ‹åˆ°å…³äºHTML5å¹»ç¯ç‰‡ï¼Œä¸€è§é’Ÿæƒ…ï¼Œå†³å®šæ¯•ä¸šè®ºæ–‡ç­”è¾©é‡‡ç”¨HTML5æ¥åšã€‚
+å…ˆå‘å‡ ä¸ªèµ„æºï¼š   
+- å…ˆæ¥åŸºç¡€æ•™æçš„ï¼š[slides.html5rocks.com](http://slides.html5rocks.com/#landing-slide "HTML5");  
+- åœ¨æ¥yihuiçš„ï¼š		[yihui åŠ äº†ä¸ªæ»‘åŠ¨é±¼çœ¼æ•ˆæœ](http://slides.html5rocks.com/#landing-slide "HTML5");   
+- å†æ¥Googleçš„æ¨¡ç‰ˆï¼š[google template](http://html5slides.googlecode.com/svn/trunk/template/index.html#1 "HTML5");
+- è¿˜æœ‰å‡ ä¸ªåŸºäºCSSçš„æ¡†æ¶ï¼š  
 		- [Slides Presentation with HTML5 ](https://github.com/briancavalier/slides "")
 		- [csss](https://github.com/LeaVerou/CSSS "")
 		- [Impress.js](http://www.oschina.net/p/impress-js "")
 		- [Reveal.js](http://www.oschina.net/p/reveal-js "")
 		
-Ïà¹Ø½éÉÜ¿ÉÒÔÔÚ[ÕâÀï](http://www.oschina.net/news/26182/6-best-html5-css3-ppt-tools)¿´¿´¡£
+ç›¸å…³ä»‹ç»å¯ä»¥åœ¨[è¿™é‡Œ](http://www.oschina.net/news/26182/6-best-html5-css3-ppt-tools)çœ‹çœ‹ã€‚
