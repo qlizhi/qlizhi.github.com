@@ -141,7 +141,6 @@ github的windows版也用过一段时间，但还是不太习惯。所以目前�
 1. Windows中添加一个HOME环境变量，值为%USERPROFILE%
 1. 在“开始>运行”中打开%Home%，新建一个名为“_netrc”的文件
 1. 用记事本打开_netrc文件，输入Git服务器名、用户名、密码，并保存：
-
-> machine github.com       #git服务器名称
-> login user          #git帐号
-> password pwd   #git密码
+> machine github.com       #git服务器名称   
+> login user          #git帐号   
+> password pwd   #git密码   
