@@ -17,7 +17,7 @@ title: 基于HTML5的幻灯片
     - [Reveal.js](http://www.oschina.net/p/reveal-js "HTML5");
 		
 相关介绍可以在[这里](http://en.wikipedia.org/wiki/Web-based_slideshow)看看。  
-还是重点介绍html5slides这个例子吧，网上资料什么的比较多。
+还是重点介绍html5slides这个例子吧，网上资料什么的比较多。   
 1. [html5slides 源码](https://code.google.com/p/html5slides/);  
 1. [html5slides源码分析](http://firerails.diandian.com/post/2012-04-03/google-html5slides-source )
 1. [基于python的landslide开发html5 slide]（https://github.com/adamzap/landslide）
