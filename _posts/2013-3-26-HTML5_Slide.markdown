@@ -20,12 +20,15 @@ title: 基于HTML5的幻灯片
 还是重点介绍html5slides这个例子吧，网上资料什么的比较多。   
 1. [html5slides 源码](https://code.google.com/p/html5slides/);  
 1. [html5slides源码分析](http://firerails.diandian.com/post/2012-04-03/google-html5slides-source )   
-1. [基于python的landslide开发html5slides]（https://github.com/adamzap/landslide）
+1. [基于python的landslide开发html5slides](https://github.com/adamzap/landslide)
 
-另外还有基于ruby [keydown开发html5](http://infews.github.com/keydown/)的工具，用的是markdown + deck.js, 网上找到另外一个有意思的东东[controldeck](http://controldeck.aws.af.cm/)，能在另外一个网页上远程操纵slides播放。    
-最终觉得[html5slides的第二版本](http://io-2012-slides.googlecode.com/git/template.html#1)最省事，所以决定用这个了。
+另外还有基于ruby [keydown开发html5](http://infews.github.com/keydown/)的工具，用的是markdown + deck.js, 网上找到另外一个有意思的东东[controldeck](http://controldeck.aws.af.cm/)，能在另外一个网页上远程操纵slides播放。最终觉得[html5slides的第二版本](http://io-2012-slides.googlecode.com/git/template.html#1)最省事，所以决定用这个了。
 
-## Landslide
 * * * * *
+## Landslide
 
-Landslide generates a slideshow using from markdown, ReST, or textile.
+Landslide generates a slideshow using from markdown, ReST, or textile.  
+安装Landslide有多种方法，[不过用python包管理器比较方便](http://www.cnblogs.com/jiekk/archive/2012/03/29/2423602.html)：     
+> 先安装setuptools-0.6c11.win32-py2.7.exe   
+> 在安装pip或者easy_install  
+> 接下来就交给pip包管理器，输入`pip install landslide`搞定    
