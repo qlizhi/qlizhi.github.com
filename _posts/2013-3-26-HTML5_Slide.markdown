@@ -32,3 +32,16 @@ Landslide generates a slideshow using from markdown, ReST, or textile.
 > 先安装setuptools-0.6c11.win32-py2.7.exe   
 > 在安装pip或者easy_install  
 > 接下来就交给pip包管理器，输入`pip install landslide`搞定    
+
+## 关于Markdown的一些格式说明：
+
+1. 以后缀名`.md`, `.markdn`, `.mdwn`, `.mdown`, `.markdown`   
+1. 第一张slide用一个标题  
+1. 多张slides以`---`分隔   
+1. 代码高亮加, 在代码块第一行以`!lang`方式，如`!python`为python的语法高亮。
+
+## 编译
+
+运行`landslide slides.md`得到一个presentation.html文件。
+
+一些命令参见[landslide的说明文档](https://github.com/adamzap/landslide)
