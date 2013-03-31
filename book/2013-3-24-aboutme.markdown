@@ -30,6 +30,16 @@ title: About me
 - [cnbeta](http://www.cnbeta.com)
 - 持续跟新中……
 
+## 推荐软件 
+
+- [Pomodoro](http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=pomodorotaskbar&DownloadId=271479&FileTime=129591840120800000&Build=20335) win7工具栏时间管理的小程序，可以提高工作效率。  
+- [Everything]() 查找软件，你值得拥有。  
+- [MetalScrollSetup_1.0.11]()  VS滚动条插件。  
+
+## 名言哲理
+
+- 工作可以使我们免除三大害处：烦闷、纵欲、饥寒”
+
 ## 本站架构
 
 本站就是挂在github的，搜索github+pages你能搜到一堆。提醒一下，中文编码要U8-UNIX。
