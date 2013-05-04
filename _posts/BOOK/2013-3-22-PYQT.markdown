@@ -4,8 +4,18 @@ styles: [syntax]
 title: python+PyQT+Eric安装配置
 ---
 
-#禁用鼠标右键
-<h2>实例描述</h2>
+## 环境配置
+* * * * *
+
+1. 安装python 3.3   
+1. 安装Qt   
+1. 安装PyQt-win-gpl-4.10（支持python2和python3），需要安装SIP，它是python调用c++的工具。   
+1. 或者将上两步替换为直接安装PyQt4-4.10-gpl-Py3.3-Qt5.0.1-x32-2.exe      
+1. 安装eric5   
+
+[利用Eric5的cx_freeze插件生成Windows可执行程序](http://agong.org/2013/eric5-and-cx_freeze-plugin-generate-exe.html)  
+[使用eric5集成环境写qt gui程序](http://agong.org/2013/use-eric5-ide-write-qt-gui-program.html)
+
 为了保证网站内容不被非法拷贝，实现代码如下：
 {% highlight javascript linenos %}
 <script language="javascript">
