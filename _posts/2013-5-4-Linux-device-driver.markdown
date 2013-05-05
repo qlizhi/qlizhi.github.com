@@ -19,7 +19,7 @@ title: Linux网络驱动
 Linux一开始就将外部设备全都当成“文件”处理。从某种意义上讲，凡是能产生或接受消息的都是“文件”。  
 应用程序通过/dev目录中的设备节点操作设备，通过/sys目录中的节点收集设备信息。
 
-### Linux设备模型之udev
+## Linux设备模型之udev
 
 几年前，Linux操作系统还不成熟，管理设备节点的工作一点都不好玩。所有需要的节点（达到数千个）都必须事先在/dev目录下静态创建。在2.4内核中，引入了devfs，它支持设备节点的动态创建。devfs提供了在内存内的文件系统中创建设备节点的能力，而命名节点的任务还是落在设备驱动程序头上。但是，设备命名策略是可管理的，不应该与内核混在一起。而udev将设备管理的任务推向了用户空间。udev的工作取决于以下几项：
   
@@ -38,7 +38,7 @@ Linux一开始就将外部设备全都当成“文件”处理。从某种意义
 `mount /dev/usbdvd /mnt/dvd`  
 设备节点（以及网络接口）的一致性命名并非udev的唯一功能。实际上，udev已经演变为Linux热插拔管理器，并且也承担了按需自动加载模块和为设备下载微码的任务。
 
-### Linux设备模型之sysfs、kobject和设备类
+## Linux设备模型之sysfs、kobject和设备类
 
 sysfs、kobject和设备类是设备模型的组成模块，它们主要在总线和核心层的实现中使用，隐藏在为设备驱动程序提供服务的API中。
 - 内核的结构化设备模型在用户空间就称为sysfs。它与procfs类似，二者都位于内存的文件系统中，而且包含内核数据结构的信息。但是，procfs是查看内核内部的一个通用视窗，而sysfs则特定地对应于设备模型。因而，sysfs并非procfs的替代品。进程描述符、sysctl参数等信息属于procfs而非sysfs。很快我们会发现，udev的大多数功能都取决于sysfs。  
@@ -54,7 +54,7 @@ sysfs、kobject和设备类是设备模型的组成模块，它们主要在总�
 
 设备模型的另一个抽象是总线--设备--驱动程序。内核把设备划为总线、设备和驱动程序。这使得单独的驱动程序更容易实现。bus_register()会为/sys/bus增加一个相应的入口，而device_register()会为/sys/devices/增加相应的入口。driver_register()注册相应驱动。
 
-### Linux设备模型之热插拔和冷插拔
+## Linux设备模型之热插拔和冷插拔
 
 在运行过程中往系统中插入设备称为热插拔，而在系统启动前就连接的设备称为冷插拔。以前，内核通过调用由/proc文件系统注册的辅助程序来向用户空间通知热插拔事件。而在当前的内核里，侦测到热插拔事件后，它们会通过netlink套接字向用户空间派生uevent。netlink套接字是一种在内核空间和用户空间透过套接字API进行通信的有效机制。用户空间的udevd（管理设备节点创建和移除的守护程序）会接收uevent并管理热插拔。udev也处理冷插拔。由于udev是用户空间的一部分，仅仅在内核启动后才开始运行，所以需要一种特殊的机制针对冷插拔设备模拟热插拔事件。启动时，内核为所有设备在sysfs下创建了一个名为uevent的文件，并将冷插拔事件记录在这些文件中。当udev开始运行后，它读取/sys下所有的uevent文件，并为每个冷插拔设备产生热插拔uevent。   
 [uevent](http://blog.csdn.net/bingqingsuimeng/article/details/7924625)的事件在kobject_action中定义：
@@ -70,7 +70,8 @@ enum kobject_action {
 };
 {% endhighlight %}
 
-### Linux设备模型之模块自动加载
+
+## Linux设备模型之模块自动加载
 
 按需自动加载内核模块是Linux支持的一种方便特性。为了理解内核怎样发起“模块缺失”事件以及udev怎么处理它，下面以向笔记本计算机的PC卡插槽插入Xircom CardBus以太网适配器为例进行说明。 
  
@@ -80,6 +81,9 @@ static struct pci_device_id xircom_pci_table[] = {
 	{0x115D, 0x0003, PCI_ANY_ID, PCI_ANY_ID,},
 	{0,},
 };
+
+/* Mark the device table */
+MODULE_DEVICE_TABLE(pci, xircom_pci_table);
 {% endhighlight %}
 
 ## 参考文献
