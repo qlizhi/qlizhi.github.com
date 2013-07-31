@@ -2,3 +2,4 @@ _site/
 *.bat
 *.bak
 /_posts/*.DS_Store
+/_posts/*.markdown~
